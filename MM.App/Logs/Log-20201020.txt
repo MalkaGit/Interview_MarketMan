@@ -1,0 +1,7 @@
+2020-10-20T00:31:58.9051084+03:00 80000034-0000-fd00-b63f-84710c7967bb [INF] Deleted celeb with id 1 (92fb2a2a)
+2020-10-20T00:32:05.1718435+03:00 80000035-0000-fd00-b63f-84710c7967bb [INF] Deleted celeb with id 2 (81290686)
+2020-10-20T00:32:08.7794592+03:00 8000003b-0003-ff00-b63f-84710c7967bb [INF] ResetData (from backup file) ... (b911d4eb)
+2020-10-20T00:32:08.9200893+03:00 8000003b-0003-ff00-b63f-84710c7967bb [INF] ResetData (from backup file) ... Done (e9aeda8d)
+2020-10-20T00:32:22.1203621+03:00 80000023-0002-fe00-b63f-84710c7967bb [INF] Deleted celeb with id 1 (92fb2a2a)
+2020-10-20T00:32:26.6232021+03:00 8000003e-0003-ff00-b63f-84710c7967bb [INF] ResetData (from backup file) ... (b911d4eb)
+2020-10-20T00:32:26.6366884+03:00 8000003e-0003-ff00-b63f-84710c7967bb [INF] ResetData (from backup file) ... Done (e9aeda8d)

@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="~/js/jquery-1.12.4.min.js"></script>
+    <script src="~/js/Celebs/index1-1.js"></script>
+    <script>
+
+        //event handlers
+
+        $(document).ready(on_document_ready());
+
+      
+    </script>
+
+    <style>
+        #divLoading
+        {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Phi_fenomeni.gif/50px-Phi_fenomeni.gif') 50% 50% no-repeat rgb(249,249,249);
+        }
+
+        table
+        {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th 
+        {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="divLoading"></div>
+    <div>
+        <div><h3>Celebs</h3></div>
+        <div>
+            <button onclick="onResetData()">Reset Data</button>
+        </div>
+    </div>
+    <div id="table_id"> </div>
+
+</body>
+</html >
