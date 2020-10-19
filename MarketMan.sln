@@ -13,6 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MM.App", "MM.App\MM.App.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0B2C8D6-AC39-48E7-A243-BF87C479265E}"
 	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
 		Requirements.docx = Requirements.docx
 	EndProjectSection
 EndProject
