@@ -12,7 +12,7 @@ namespace MM.Common.Models
         {
         }
 
-        public Celeb(int index, string name, string role, DateTime birthDate, string gender , string imageUri)
+        public Celeb(int index, string name, string role, DateTime birthDate, string gender , string imageUri, string imdb_nm)
         {
             this.Index      = index;
             this.Name       = name;
@@ -20,6 +20,7 @@ namespace MM.Common.Models
             this.BirthDate  = birthDate;
             this.Gender     = gender;
             this.ImageUri   = imageUri;
+            this.Imdb_nm    = imdb_nm;
         }
 
         #endregion
@@ -31,11 +32,13 @@ namespace MM.Common.Models
 
         public string       Role        { get; set; }
 
-        public DateTime     BirthDate   { get; set; }
+        public DateTime?    BirthDate   { get; set; }
 
         public string        Gender      { get; set; }
 
         public string       ImageUri    { get; set; }
+
+        public  string       Imdb_nm { get; set; }      //eg:nm0413168 from https://www.imdb.com/name/nm0413168/?ref_=nmls_hd
 
         //gender
 
